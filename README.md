@@ -270,35 +270,32 @@ At the Fabric free window, create your account pages, enter any information, and
 ### Task 1.2: Set up a Fabric workspace
 
 1. You should be able to find a New Workspace tile near the upper-left area of the screen. Select it to open the **Create a workspace** pane on the right side.
-
-
    
-   ![8g82u4mq.png](instructions344992/8g82u4mq.png)
+   ![8g82u4mq.png](media/8g82u4mq.png)
 
 1. In the **Create a workspace** pane, in the **Name** field, enter `workspace@lab.LabInstance.Id`.
-
-
    
-   ![bysvn2ik.png](instructions344992/bysvn2ik.png)
+   ![bysvn2ik.png](media/bysvn2ik.png)
+   
 	>[!Note] You can safely ignore any messages about **PREMIUM CAPACITY SETTINGS**.
 
 1. Select **Advanced** and move down to see the License mode. Ensure that **Fabric** is selected.
 
 
 
-	![k1mwhjcz.png](instructions344992/k1mwhjcz.png)
+	![k1mwhjcz.png](media/k1mwhjcz.png)
 
 1. Next, select the green **Apply** button at the lower left of the **Create a workspace** pane.
 
 
    
-   ![gse1xrsm.png](instructions344992/gse1xrsm.png)
+   ![gse1xrsm.png](media/gse1xrsm.png)
 
 1. On the following page, you may get a pop-up window titled "Introducing task flows (preview)". Select the green **Got it** button.
 
 
    
-   ![hth7guac.png](instructions344992/hth7guac.png)
+   ![hth7guac.png](media/hth7guac.png)
 
 ### Task 1.3: Building a Lakehouse
 In this task of the workshop, you'll be creating a Lakehouse.
@@ -322,7 +319,7 @@ In this task of the workshop, you'll be creating a Lakehouse.
 
 
 
-    ![Lakehouse](instructions344992/LakehouseName.png)
+    ![Lakehouse](media/LakehouseName.png)
 
     >[!Note] Wait for the Lakehouse to be successfully provisioned. Once created, the Lakehouse will open automatically.
 
@@ -332,7 +329,7 @@ In this task of the workshop, you'll be creating a Lakehouse.
    - **Tables** section
    - **Files** section
 
-    ![BlankLakehouse](instructions344992/BlankLakehouse.png)
+    ![BlankLakehouse](media/BlankLakehouse.png)
 
     >[!Note] Both **Tables** and **Files** sections are empty.
 
@@ -340,13 +337,13 @@ In this task of the workshop, you'll be creating a Lakehouse.
 
 
 
-    ![FileSelection](instructions344992/FileSelection.png)
+    ![FileSelection](media/FileSelection.png)
 
 1. **Select** the folder icon at the right side to choose a file path.
 
 
 
-    ![Fileimg.png](../../media/Fileimg.png)
+    ![Fileimg.png](media/Fileimg.png)
 
 1. To browse the files from your virtual machine, open File Explorer. Select the address bar and enter the path `C:\FabricIQLab\Ontology`.
 
@@ -367,19 +364,19 @@ In this task of the workshop, you'll be creating a Lakehouse.
     - **fabriciq_ontology_accelerator-0.1.0-py3-none-any.whl**
     - **Zava Black Friday Return Policy**
 
-    ![SelectAllFiles](instructions344992/SelectAllFiles.png)
+    ![SelectAllFiles](media/SelectAllFiles.png)
 
 1. Close the upload window once these files have been uploaded.
 
 
 
-    ![CurrentUploads](instructions344992/CurrentUploads.png)
+    ![CurrentUploads](media/CurrentUploads.png)
 
 1. Now, the **Files** section of the Lakehouse has all three files. 
 
 
 
-    ![LakehouseWithFiles](instructions344992/LakehouseWithFiles.png)
+    ![LakehouseWithFiles](media/LakehouseWithFiles.png)
 
 ### Task 1.4: Loading data into the Lakehouse
 #### Step 1: Import notebook 
@@ -400,13 +397,13 @@ In this task of the workshop, you'll be creating a Lakehouse.
 
 
 
-    ![Notebookimport](instructions344992/Notebookimport.png)
+    ![Notebookimport](media/Notebookimport.png)
 
 1. Select **Upload** to import the notebook.
 
 
 
-    ![UploadNotebook](instructions344992/UploadNotebook.png)
+    ![UploadNotebook](media/UploadNotebook.png)
 
 1. To browse the notebooks from your virtual machine, open File Explorer. Select the address bar, enter the path `C:\FabricIQLab\Notebooks`, then select the **Generate Lakehouse Data** notebook file and select the **Open** button.
 
@@ -426,38 +423,38 @@ In this task of the workshop, you'll be creating a Lakehouse.
 
 
   
-     ![Notebook1.png](../../media/Notebook1.png)
+     ![Notebook1.png](media/Notebook1.png)
 
 1. The notebook will open in a different tab without binding with any datastore (Lakehouse).
 
 
 
-    ![NotebookwithoutLakehouse](../../media/NBwoutlakehouse.png)
+    ![NotebookwithoutLakehouse](media/NBwoutlakehouse.png)
 
 1. Select **Add data items** and select **From OneLake catalog** to open OneLake areas.
 
 
 
-    ![Choosedata](../../media/choosedata.png)
+    ![Choosedata](media/choosedata.png)
 
 1. Click on the **Filter** option in the **OneLake Catalog**, In the filter pane, select **Lakehouse**, Choose the   **Retail_Lakehouse_@lab.LabInstance.Id** Lakehouse that was created previously and Click on **Add**.
 
 
 
 
-    ![SelectLakehouse.png](../../media/SelectLakehouse.png) 
+    ![SelectLakehouse.png](media/SelectLakehouse.png) 
 
 1. Now, the selected **Lakehouse** will be bound with the notebook.
 
 
 
-    ![lakehousebind](../../media/lakehousebind.png)
+    ![lakehousebind](media/lakehousebind.png)
 
 1. Move down to the bottom of the four cells.
 
 
 
-	![qh937xi7.png](../../media/qh937xi7.png)
+	![qh937xi7.png](media/qh937xi7.png)
 
 1. In the bottom cell, replace the existing names with the following:
 
@@ -469,43 +466,44 @@ In this task of the workshop, you'll be creating a Lakehouse.
     | Robin | `Robin-@lab.LabInstance.Id` |
     | Ryan | `Ryan-@lab.LabInstance.Id` |
 
-	![r56npfau.png](../../media/r56npfau.png)
+	![r56npfau.png](media/r56npfau.png)
 
 1. On the menu bar at the top of the section, select **Run all** to execute all four cells.
 
 
 
-    ![3zlx1i5h.png](../../media/3zlx1i5h.png)
+    ![3zlx1i5h.png](media/3zlx1i5h.png)
 
 1. Wait for the execution to complete successfully.
 
 
 
     >[!Note] All cells have **completed** execution once the final cell displays a green check mark. This process may take a **couple of minutes**.
-    ![jkda78zp.png](../../media/jkda78zp.png)
+    
+	![jkda78zp.png](media/jkda78zp.png)
 
 1. Navigate to the **Lakehouse** that was created earlier and verify that the data is successfully loaded (it should be open in another tab).
 
 
 
-    ![LakehouseData](../../media/LHnavigation.png)
+    ![LakehouseData](media/LHnavigation.png)
 
 1. Go to the **Tables** section and select the three dots (⋯), then select **Refresh** to load all tables under **dbo** schema.
 
 
 
-    ![LakehouseData](../../media/tablerefresh.png)
+    ![LakehouseData](media/tablerefresh.png)
 
 1. Verify that tables are created automatically.
 
 
     
-    ![LakehouseData](../../media/LakehouseData.png)
+    ![LakehouseData](media/LakehouseData.png)
 
 1. Click on the **orders** table and observe that the **username** column has been populated with the **usernames** that you added to the notebook before execution.
 
 
-    ![Table order.png](../../media/Table order.png)
+    ![Table order.png](media/Tableorder.png)
 
 ### Task 1.5: Create a data agent with a Lakehouse as the data source
 In this task, a **Data Agent** will be created in Fabric workspace and linked with the **Lakehouse** data source.
@@ -523,13 +521,13 @@ In this task, a **Data Agent** will be created in Fabric workspace and linked wi
 
 
 
-    ![DAnavigation](instructions344992/DAnavigation.png)
+    ![DAnavigation](media/DAnavigation.png)
 
 1. In the **Input a data agent name** field, enter `Retail_DataAgent_@lab.LabInstance.Id`, and select **Create**.
 
 
 
-    ![FoundryDataAgent](instructions344992/FoundryDataAgent.png)
+    ![FoundryDataAgent](media/FoundryDataAgent.png)
 
     > [!Note] If any message appears, please select **Skip for now**.
 
@@ -539,19 +537,19 @@ In this task, a **Data Agent** will be created in Fabric workspace and linked wi
 
 
 
-    ![datasource](instructions344992/datasource.png)
+    ![datasource](media/datasource.png)
 
 1. Select the **Retail_Lakehouse_@lab.LabInstance.Id** Lakehouse, then select **Add** and verify that the Lakehouse is successfully attached.
 
 
 
-    ![FoundryDataAgentLakehouse](instructions344992/FoundryDataAgentLakehouse.png)
+    ![FoundryDataAgentLakehouse](media/FoundryDataAgentLakehouse.png)
 
 1. Expand **Retail_Lakehouse → schemas → dbo → Tables** and select all tables (carriers, customers, demand_signals, forecasts, inventories, order_lines, orders, product_categories, products, promotions, regions, returns, shipments, stores, warehouses).
 
 
 
-    ![FoundryDataAgentLakehouse](instructions344992/LHselection.png)
+    ![FoundryDataAgentLakehouse](media/LHselection.png)
 
  > If you are unable to see **tables** after adding the **Lakehouse**, **remove** the Lakehouse from the **data source ** and add it again. 
 
@@ -563,7 +561,7 @@ In this task, a **Data Agent** will be created in Fabric workspace and linked wi
 
 
 
-     ![Agent inst.png](../../media/Agent inst.png)
+     ![Agent inst.png](media/Agentinst.png)
 
 1. In the **Agent instructions** section, remove any existing default content present in the instruction box, and enter instructions to provide guidance to control how the agent responds. 
 
@@ -783,18 +781,18 @@ In this task, a **Data Agent** will be created in Fabric workspace and linked wi
 
 
 
-    ![agentpublish](../../media/agentpublish.png)
+    ![agentpublish](media/agentpublish.png)
 
 1. In the pop-up window, click **Publish**.
 
 
-   ![Publish Dagent.png](../../media/Publish Dagent.png)
+   ![Publish Dagent.png](media/Publish Dagent.png)
 
 1. After adding the instructions, select the **close (✕)** icon on the **Agent instructions** tab to exit the window.
 
 
 
-    ![agentclosing](../../media/agentclosing.png)
+    ![agentclosing](media/agentclosing.png)
 
 1. Once closed, the main Data Agent interface will be displayed, where you can start querying the agent using natural language.
 
@@ -812,7 +810,7 @@ In this task, a **Data Agent** will be created in Fabric workspace and linked wi
 
 
 
-    ![agentresponse](../../media/agentrespns.png)
+    ![agentresponse](media/agentrespns.png)
 
 1. Observe how the agent:
 
@@ -883,25 +881,25 @@ This request initiates the workflow, where agents collaborate to gather context,
 
 
 
-	![Step 7 Image](instructions344992/image7.png)
+	![Step 7 Image](media/image7.png)
 
 1. On the Microsoft Foundry page, on the left side, select **Agents**.
 
 
 
-    ![Select step 1](../../media/image32.png)
+    ![Select step 1](media/image32.png)
 
 1. Select **New agent > Build an agent**. 
 
 
 
-    ![1byvi19r.png](../../media/1byvi19r.png)
+    ![1byvi19r.png](media/1byvi19r.png)
 
 1. Enter `Supervisor-Agent` as Agent name, then select **Create and open playground**.
 
 
 
-    ![8rs6c6pg.png](../../media/8rs6c6pg.png)
+    ![8rs6c6pg.png](media/8rs6c6pg.png)
 
 1. Once the agent is created, you'll be redirected to the agent playground page. From the **Model** dropdown list, select **gpt-4.1**  and paste the following instructions in the **Instructions** section.
 
@@ -939,32 +937,32 @@ This request initiates the workflow, where agents collaborate to gather context,
     Return only the agent name as a plain string - no quotes, no extra whitespace, no newline. Example:
     `Inventory-Agent`
     ```
-   ![SA 1.png](../../media/SA 1.png)
+   ![SA 1.png](media/SA 1.png)
 
 1. By default, **Web Search** is added. **Click** on the three dots and remove it before proceeding.
 
 
 
   
-  ![Webs.png](../../media/Webs.png)
+  ![Webs.png](media/Webs.png)
 
 1. Select **Save**, then select the back arrow (**⬅**) to create additional agents.
 
 
 
-    ![Step 5.png](../../media/image36.png)
+    ![Step 5.png](media/image36.png)
 
 1. Select **New agent > Build an agent**. 
 
 
 
-    ![1byvi19r.png](../../media/1byvi19r.png)
+    ![1byvi19r.png](media/1byvi19r.png)
 
 1. Enter `Inventory-Agent` as agent name and then select **Create and open playground**.
 
 
 
-    ![0eyw9xed.png](../../media/0eyw9xed.png)
+    ![0eyw9xed.png](media/0eyw9xed.png)
 
 1. Select **gpt-4.1** from the dropdown list and paste the following instructions in the **Instructions** section.
 
@@ -983,49 +981,49 @@ This request initiates the workflow, where agents collaborate to gather context,
     Short, factual, label : value lines. Currency includes the symbol; counts are integers. No prose padding, no tool names, no reasoning steps.
     ```
 
-   ![IA 1.png](../../media/IA 1.png)
+   ![IA 1.png](media/IA 1.png)
 
 1. By default, **Web Search** is added. Click on the **three dots** and **remove** it before proceeding.
 
 
 
-     ![Webs.png](../../media/Webs.png)
+     ![Webs.png](media/Webs.png)
 
 1. Under the Tools dropdown,Click on **Add**, then click on **Browse all tools**.
 
 
 
-    ![image58New.png](../../media/image58New.png)
+    ![image58New.png](media/image58New.png)
 
 1. Search for +++**Fabric IQ (OneLake Catalog)**+++ in the search bar, select it, then click on **Add tool**.
 
 
 
-    ![image59New.png](../../media/image59New.png)
+    ![image59New.png](media/image59New.png)
 
 1. Select the **data agent**, then click on **Add tool**.
 
 
 
-   ![image60New.png](../../media/image60New.png)
+   ![image60New.png](media/image60New.png)
 
 1. Review the connected **Fabric IQ (OneLake Catalog)** tool, click on **Save** and click on **⬅**.
 
 
 
-    ![image61New.png](../../media/image61New.png)
+    ![image61New.png](media/image61New.png)
 
 1. Select **New agent > Build an agent**. 
 
 
 
-    ![1byvi19r.png](../../media/1byvi19r.png)
+    ![1byvi19r.png](media/1byvi19r.png)
 
 1. Enter `Hierarchy-Agent` as agent name, then select **Create and open playground**.
 
 
 
-    ![HACreate1.png](../../media/HACreate1.png)
+    ![HACreate1.png](media/HACreate1.png)
 
 1. Once the agent is created, you'll be redirected to the agent playground page. From the **Model** dropdown list, select **gpt-4.1**  and paste the following instructions in the **Instructions** section.
 
@@ -1063,30 +1061,30 @@ This request initiates the workflow, where agents collaborate to gather context,
     - Do not fabricate data.
     ```
     
-    ![HA 1.png](../../media/HA 1.png)
+    ![HA 1.png](media/HA 1.png)
 
 1. By default, **Web Search** is added. Click on the **three dots** and **remove** it before proceeding.
 
 
-	![Webs.png](../../media/Webs.png)
+	![Webs.png](media/Webs.png)
 
 1. Select **Save**, then select the back arrow (**⬅**) to return.
 
 
 
-    ![Step 5.png](../../media/image80.png)
+    ![Step 5.png](media/image80.png)
 
 1. Select **New agent > Build an agent**. 
 
 
 
-    ![1byvi19r.png](../../media/1byvi19r.png)
+    ![1byvi19r.png](media/1byvi19r.png)
 
 1. Enter `SOP-Agent` as agent name, then select **Create and open playground**.
 
 
 
-    ![tsl2aqm2.png](../../media/tsl2aqm2.png)
+    ![tsl2aqm2.png](media/tsl2aqm2.png)
 
 1. Once the agent is created, you'll be redirected to the agent playground page. From the **Model** dropdown list, select **gpt-4.1** and paste the following instructions in the **Instructions** section.
 
@@ -1189,31 +1187,31 @@ This request initiates the workflow, where agents collaborate to gather context,
     - Prefer concise deterministic execution over reasoning-heavy responses.
     ```
 
-  ![SOPA1.png](../../media/SOPA1.png)
+  ![SOPA1.png](media/SOPA1.png)
 >[!Note] ** Read the instructions carefully before pasting them into the agent configuration.
 
 1. By default, **Web Search** is added. Click on the **three dots** and **remove** it before proceeding.
 
 
-	![Webs.png](../../media/Webs.png)
+	![Webs.png](media/Webs.png)
 
 1. Select **Save**, then select the back arrow (**⬅**) to return.
 
 
 
-    ![Step 17.png](../../media/image76.png)
+    ![Step 17.png](media/image76.png)
 
 1. Select **New agent > Build an agent**. 
 
 
 
-    ![1byvi19r.png](../../media/1byvi19r.png)
+    ![1byvi19r.png](media/1byvi19r.png)
 
 1. Enter `Communication-Agent` as agent name, then select **Create and open playground**.
 
 
 
-    ![ykwlonuw.png](../../media/ykwlonuw.png)
+    ![ykwlonuw.png](media/ykwlonuw.png)
 
 1. Once the agent is created, you'll be redirected to the agent playground page. From the **Model** dropdown list, select **gpt-4.1** and paste the following instructions in the **Instructions** section.
 
@@ -1291,30 +1289,30 @@ This request initiates the workflow, where agents collaborate to gather context,
     - If a required input is missing (e.g. no hierarchy for an availability review), ask once and stop.
     ```
 
-    ![CA1.png](../../media/CA1.png)
+    ![CA1.png](media/CA1.png)
 
 1. By default, **Web Search** is added. Click on the **three dots** and **remove** it before proceeding.
 
 
-	![Webs.png](../../media/Webs.png)
+	![Webs.png](media/Webs.png)
 
 1. Select **Save**, then select the back arrow (**⬅**) to return.
 
 
 
-    ![Step 17.png](../../media/image74.png)
+    ![Step 17.png](media/image74.png)
 
 1. Select **New agent > Build an agent**. 
 
 
 
-    ![1byvi19r.png](../../media/1byvi19r.png)
+    ![1byvi19r.png](media/1byvi19r.png)
 
 1. Enter `Summarizer-Agent` as agent name, then select **Create and open playground**.
 
 
 
-    ![8l4e6ctr.png](../../media/8l4e6ctr.png)  
+    ![8l4e6ctr.png](media/8l4e6ctr.png)  
 
 1. Once the agent is created, you'll be redirected to the agent playground page. From the **Model** dropdown list, select **gpt-4.1** and paste the following instructions in the **Instructions** section.
 
@@ -1387,30 +1385,30 @@ This request initiates the workflow, where agents collaborate to gather context,
 
     ```
 
-    ![SA1.png](../../media/SA1.png)
+    ![SA1.png](media/SA1.png)
 
 1. By default, **Web Search** is added. Click on the **three dots** and **remove** it before proceeding.
 
 
-	![Webs.png](../../media/Webs.png)
+	![Webs.png](media/Webs.png)
 
 1. Select **Save**, then select the back arrow (**⬅**) to return.
 
 
 
-    ![Step 17.png](../../media/image75.png)
+    ![Step 17.png](media/image75.png)
 
 1. Select **New agent > Build an agent**. 
 
 
 
-    ![1byvi19r.png](../../media/1byvi19r.png)
+    ![1byvi19r.png](media/1byvi19r.png)
 
 1. Enter `Work-IQ-Orchestrator-Agent` as agent name, then select **Create and open playground**.
 
 
 
-    ![3uo6k8pd.png](../../media/3uo6k8pd.png)
+    ![3uo6k8pd.png](media/3uo6k8pd.png)
 
 1. Once the agent is created, you'll be redirected to the agent playground page. From the **Model** dropdown list, select **gpt-4.1** and paste the following instructions in the **Instructions** section.
 
@@ -1449,17 +1447,17 @@ This request initiates the workflow, where agents collaborate to gather context,
     Never return "Work IQ orchestrator" or any other agent name. Your only valid outputs are "Hierarchy-Agent" or "SOP-Agent".
     ```
     
-    ![WorkIQ Orch Agent.png](../../media/WorkIQ Orch Agent.png)  
+    ![WorkIQ Orch Agent.png](media/WorkIQ Orch Agent.png)  
 
 1. By default, **Web Search** is added. Click on the **three dots** and **remove** it before proceeding.
 
 
-	![Webs.png](../../media/Webs.png)
+	![Webs.png](media/Webs.png)
 
 1. Select **Save**, then select the back arrow (**⬅**) to return.
 
 
-    ![Step 5.png](../../media/image79.png)
+    ![Step 5.png](media/image79.png)
 
 <!-- Multi-agent orchestrator (workflow) and end-to-end validation steps moved to the next exercise. -->
 
@@ -1496,19 +1494,19 @@ This request initiates the workflow, where agents collaborate to gather context,
 
 
 
-    ![Step 1.png](../../media/image57.png)
+    ![Step 1.png](media/image57.png)
 
 1. By default, under Tools on the Playground tab, Web Search is added. Select three dots and then select **remove**.
 
 
 
-	![t1n755ob.png](../../media/t1n755ob.png)
+	![t1n755ob.png](media/t1n755ob.png)
 
 1. Under the Tools dropdown,Select **Add**, then select **Browse all tools**.
 
 
 
-    ![Step 2.png](../../media/image58.png)
+    ![Step 2.png](media/image58.png)
 
 1. Select **Fabric Data Agent**, and then select **Add tool**.
 
@@ -1537,7 +1535,7 @@ This request initiates the workflow, where agents collaborate to gather context,
 
 
 
-    ![Step 8.png](../../media/image61.png)
+    ![Step 8.png](media/image61.png)
 
  -->
 
@@ -1550,13 +1548,13 @@ Add the following Work IQ tools to the Hierarchy-Agent:
 1. From the Agents list, select **Hierarchy-Agent**.
 
 
-    ![Step 1.png](../../media/image86.png)
+    ![Step 1.png](media/image86.png)
 
 1. Under the Tools dropdown, select **Add**, then select **Browse all tools**.
 
 
 
-    ![Step 2.png](../../media/image58.png)
+    ![Step 2.png](media/image58.png)
 
 #### Add Work IQ User
 
@@ -1564,19 +1562,19 @@ Add the following Work IQ tools to the Hierarchy-Agent:
 
 
 
-    ![Step 3.png](../../media/image87.png)
+    ![Step 3.png](media/image87.png)
 
 1. Select **Create**.
 
 
 
-    ![Step 4.png](../../media/image85.png)
+    ![Step 4.png](media/image85.png)
 
 1. Review the details and select **Connect**.
 
 
 
-    ![Step 5.png](../../media/image88.png)
+    ![Step 5.png](media/image88.png)
 
 1. Review the connected **Hierarchy-Agent** tool, select **Save** and select **⬅**.
 
@@ -1592,13 +1590,13 @@ Add the following Work IQ tools to the Communication Agent:
 
 
 
-    ![Step 1.png](../../media/image90.png)
+    ![Step 1.png](media/image90.png)
 
 1. Under the **Tools** dropdown menu, select **Add**, then select **Browse all tools**.
 
 
 
-    ![Step 2.png](../../media/image58.png)
+    ![Step 2.png](media/image58.png)
 
 #### Add Work IQ Mail
 
@@ -1606,19 +1604,19 @@ Add the following Work IQ tools to the Communication Agent:
 
 
 
-    ![Step 3.png](../../media/image89.png)
+    ![Step 3.png](media/image89.png)
 
 1. Select **Create**.
 
 
 
-    ![Step 4.png](../../media/image91.png)
+    ![Step 4.png](media/image91.png)
 
 1. Review the details and select **Connect**.
 
 
 
-    ![Step 5.png](../../media/image92.png)
+    ![Step 5.png](media/image92.png)
 
 #### Add Work IQ Teams
 
@@ -1629,19 +1627,19 @@ Add the following Work IQ tools to the Communication Agent:
 
 
 
-    ![Step 6.png](../../media/image93.png)
+    ![Step 6.png](media/image93.png)
 
 1. Select **Create**.
 
 
 
-    ![Step 7.png](../../media/image94.png)
+    ![Step 7.png](media/image94.png)
 
 1. Review the details and select **Connect**.
 
 
 
-    ![Step 8.png](../../media/image95.png)
+    ![Step 8.png](media/image95.png)
 
 #### Add Work IQ calendar
 
@@ -1652,25 +1650,25 @@ Add the following Work IQ tools to the Communication Agent:
 
 
 
-    ![Step 9.png](../../media/image4.png)
+    ![Step 9.png](media/image4.png)
 
 1. Select **Create**.
 
 
 
-    ![Step 10.png](../../media/image5.png)
+    ![Step 10.png](media/image5.png)
 
 1. Review the details and select **Connect**.
 
 
 
-    ![Step 11.png](../../media/image6.png)
+    ![Step 11.png](media/image6.png)
 
 1. Review the connected **Work IQ Mail**, **Work IQ Teams**, and **Work IQ calendar** tools on the Communication-Agent, select **Save**, then select **⬅**.
 
 
 
-    ![Step 12.png](../../media/image96.png)
+    ![Step 12.png](media/image96.png)
 
 ### Task 2.2.3: Implement Work IQ tool calling capabilities for the SOP-Agent
 
@@ -1682,13 +1680,13 @@ Add the following Work IQ tools to the SOP-Agent:
 
 
 
-    ![Step 1.png](../../media/image97.png)
+    ![Step 1.png](media/image97.png)
 
 1. Under the **Tools** dropdown menu, select **Add**, then select **Browse all tools**.
 
 
 
-    ![Step 2.png](../../media/image58.png)
+    ![Step 2.png](media/image58.png)
 
 #### Add Work IQ Word
 
@@ -1696,19 +1694,19 @@ Add the following Work IQ tools to the SOP-Agent:
 
 
 
-    ![Step 3.png](../../media/image105.png)
+    ![Step 3.png](media/image105.png)
 
 1. Select **Create**.
 
 
 
-    ![Step 4.png](../../media/image106.png)
+    ![Step 4.png](media/image106.png)
 
 1. Review the details and select **Connect**.
 
 
 
-    ![Step 5.png](../../media/image107.png)
+    ![Step 5.png](media/image107.png)
 
 #### Add Work IQ OneDrive
 
@@ -1719,25 +1717,25 @@ Add the following Work IQ tools to the SOP-Agent:
 
 
 
-    ![Step 6.png](../../media/image98.png)
+    ![Step 6.png](media/image98.png)
 
 1. Select **Create**.
 
 
 
-    ![Step 7.png](../../media/image102.png)
+    ![Step 7.png](media/image102.png)
 
 1. Review the details and select **Connect**.
 
 
 
-    ![Step 8.png](../../media/image103.png)
+    ![Step 8.png](media/image103.png)
 
 1. Review the connected **Work IQ Word** and **Work IQ OneDrive** tools on the SOP-Agent, select **Save**, then select **⬅**.
 
 
 
-    ![Step 9.png](../../media/image108.png)
+    ![Step 9.png](media/image108.png)
 
 ### What we learned
 
@@ -1773,19 +1771,19 @@ In this exercise, you'll bring together the agents you created in Exercise 2 - *
 
 
 
-    ![Step 1.png](instructions344992/image62.png)
+    ![Step 1.png](media/image62.png)
 
 1. Select **Create** and then select **Blank workflow**.
 
 
 
-    ![Step 2.png](instructions344992/image63.png)
+    ![Step 2.png](media/image63.png)
 
 1. Select **YAML**.
 
 
 
-    ![Step 3.png](instructions344992/image64.png)
+    ![Step 3.png](media/image64.png)
 
 1. Replace the existing YAML script with the script below, and select **Save**.
 
@@ -1892,7 +1890,7 @@ id: ""
 name: Microsoft-IQ-Workflow
 description: ""
 
-    ![Step 5.png](../../media/image112.png)
+    ![Step 5.png](media/image112.png)
 
 >[!Note] Read through the YAML carefully so you understand how the **Supervisor-Agent** routes the user query, how the **Work-IQ-Orchestrator-Agent** further routes Work IQ tool requests to the **Hierarchy-Agent**, **Communication-Agent**, or **SOP-Agent**, and how the **Summarizer-Agent** consolidates the final response.
 
@@ -1900,15 +1898,15 @@ description: ""
 
 
 
-    ![Step 6.png](../../media/image114.png)
+    ![Step 6.png](media/image114.png)
 
 1. Inside **Microsoft-IQ-Workflow**, select the **Visualizer**. You'll be directed to the visualization area.
 
 
 
 	>[!Note] To see the entire workflow, select the vertical display icon next to the visualizer.
-    ![buh0rhv6.png](../../media/buh0rhv6.png)
-    ![Step 7.png](../../media/image115.png)
+    ![buh0rhv6.png](media/buh0rhv6.png)
+    ![Step 7.png](media/image115.png)
 
 ### Task 3.2: Simulate Robin's sick leave in Microsoft 365
 
@@ -1918,7 +1916,7 @@ description: ""
 
 
 
-	![pvwh8v48.png](../../media/pvwh8v48.png)
+	![pvwh8v48.png](media/pvwh8v48.png)
 
 1. In the new browser, connect to `https://teams.microsoft.com`
 
@@ -1938,13 +1936,13 @@ description: ""
 
 
 
-    ![vdo8ci3s.png](../../media/vdo8ci3s.png)
+    ![vdo8ci3s.png](media/vdo8ci3s.png)
 
 1. At the bottom of the status message panel, select **Schedule out of office**.
 
 
 
-    ![s1etc6tt.png](../../media/s1etc6tt.png)
+    ![s1etc6tt.png](media/s1etc6tt.png)
 
 1. Switch on the **Turn on automatic replies** toggle, then paste the following message into the **Out of office message** text box and select **Save**:
 
@@ -1955,19 +1953,19 @@ text
     I'll be taking sick leave for 2 days.
     ```
 
-    ![et2b719q.png](../../media/et2b719q.png)
+    ![et2b719q.png](media/et2b719q.png)
 
 1. Back on the upper-right corner, select your user profile again, select the **Available** status, and then choose **Appear offline**.
 
 
 
-    ![pzqsxsvj.png](../../media/pzqsxsvj.png)
+    ![pzqsxsvj.png](media/pzqsxsvj.png)
 
 1. On the left menu, select **Chat**.
 
 
 
-	![6uzamvr0.png](../../media/6uzamvr0.png)
+	![6uzamvr0.png](media/6uzamvr0.png)
 
 1. In the search bar at the top of the screen, search for `@lab.CloudPortalCredential(Ashley).Username`, and then select **Ashley**.
 
@@ -1981,12 +1979,12 @@ text
     Hi Ashley, I will be on sick leave for the next 2 days.
     ```
 
-    ![um2om0q1.png](../../media/um2om0q1.png)
+    ![um2om0q1.png](media/um2om0q1.png)
 
 1. In the upper left, select the **app launcher** (9 dots), and then select **Outlook**.
 
 
-     ![teams.png](../../media/teams.png)
+     ![teams.png](media/teams.png)
 
 1. In Outlook, select **New mail**, and compose an email with the following details:
 
@@ -2009,7 +2007,7 @@ text
 
 
 
-    ![mcpaof4r.png](../../media/mcpaof4r.png)
+    ![mcpaof4r.png](media/mcpaof4r.png)
 
 1. Once the Teams status, chat message, and email have been sent, close the InPrivate browser and return to the Microsoft Foundry browser tab.
 
@@ -2049,7 +2047,7 @@ In this exercise, you'll validate the multi-agent workflow you published in Exer
 
 
 
-    ![Step 1.png](../../media/image116.png)
+    ![Step 1.png](media/image116.png)
 
 ### Task 4.2: Execute the end-to-end stockout risk scenario
 >[!Note] ** For each query below, you should consider the **Summarizer-Agent** response as the final output. The intermediate agent node outputs (Supervisor, Work-IQ-Orchestrator, Hierarchy, Communication, SOP) are part of the routing and processing flow and are not the final response shown to the user.
@@ -2063,20 +2061,20 @@ text
     What are my priorities for today?
     ```
 
-    ![Step 1.png](../../media/image117.png)
+    ![Step 1.png](media/image117.png)
 
     >[!Alert] As the workflow runs, it will prompt you for **approval** multiple times to invoke the underlying tools. Select **Approve**, and then select **Always approve all tools**.
-    ![Step 2.png](../../media/image118.png)
+    ![Step 2.png](media/image118.png)
 
 1. Once the intermediate agents complete the execution, the **Summarizer-Agent**'s consolidated response will appear in the chat panel.
 
 
 
-    ![Step 3.png](../../media/image119.png)
+    ![Step 3.png](media/image119.png)
 
 	>[!Alert] If you receive the message **No content received from previous agents** or **encounter any error while chatting with the agent**, please **refresh** the Microsoft Foundry **browser tab** and try running the same prompt again.
 
-	 ![IQW.png](../../media/IQW.png)
+	 ![IQW.png](media/IQW.png)
 >[!Note] ** Behind the scenes, the **Supervisor-Agent** routes the request to the **Work-IQ-Orchestrator-Agent**, which delegates to the **Hierarchy-Agent** (uses the **Work IQ Users** tool to identify the current user and their direct reports) and then to the **Communication-Agent** (uses **Work IQ Mail**, **Teams**, and **Calendar** to detect absence notifications and review the day's schedule), before the **Summarizer-Agent** consolidates the findings into the final user-facing response.
 
 1. In the **Preview** chat, enter the following query and select **Enter**:
@@ -2088,18 +2086,18 @@ text
     What is the impact of Robin-@lab.LabInstance.Id on leave?
     ```
 
-    ![Step 4.png](../../media/image120.png)
+    ![Step 4.png](media/image120.png)
 >[!Note] ** As shown in step 2, approve any tool prompts the workflow displays during execution.
 
     >[!Alert] If you receive the message **No content received from previous agents** or **encounter any error while chatting with the agent**, please **refresh** the Microsoft Foundry **browser tab** and try running the same prompt again.
 
-	 ![IQW.png](../../media/IQW.png)
+	 ![IQW.png](media/IQW.png)
 
 1. Once the intermediate agents complete the execution, the **Summarizer-Agent**'s consolidated response will appear in the chat panel.
 
 
 
-    ![Step 5.png](../../media/image121.png)
+    ![Step 5.png](media/image121.png)
 >[!Note] ** Behind the scenes, the **Supervisor-Agent** routes the request to the **Inventory-Agent**, which uses the **Fabric Data Agent** to query the orders assigned to the absent team member and calculate the financial risk across open, in-progress, and unfulfilled statuses, before the **Summarizer-Agent** consolidates the impact analysis and recommends task reassignment in the final user-facing response.
 
 1. In the **Preview** chat, enter the following query and select **Enter**:
@@ -2111,18 +2109,19 @@ text
     Proceed with creating an event with Ryan-@lab.LabInstance.Id calendar for the entire day to handle Robin's work and send him an email notification now.
     ```
 
-    ![Picture4.png](../../media/Picture4.png)
+    ![Picture4.png](media/Picture4.png)
 >[!Note] ** As shown in step 2, approve any tool prompts the workflow displays during execution.
 
     >[!Alert] If you receive the message **No content received from previous agents** or **encounter any error while chatting with the agent**, please **refresh** the Microsoft Foundry **browser tab** and try running the same prompt again.
 
-	 ![IQW.png](../../media/IQW.png)
+	 ![IQW.png](media/IQW.png)
 
 1. Once the intermediate agents complete the execution, the **Summarizer-Agent**'s consolidated response will appear in the chat panel.
 
 
 
-    ![Step 7.png](../../media/image123.png)
+    ![Step 7.png](media/image123.png)
+   
 >[!Note] ** Behind the scenes, the **Supervisor-Agent** routes the request to the **Work-IQ-Orchestrator-Agent**, which delegates to the **Hierarchy-Agent** (uses the **Work IQ Users** tool to confirm the target team member's reporting relationship) and then to the **Communication-Agent** (uses **Work IQ Calendar** to review the schedule, prepare the day-long calendar block, and stage the email notification), before the **Summarizer-Agent** consolidates the confirmation in the final user-facing response.
 
 1. Validate the side effects of the previous step:
@@ -2144,7 +2143,7 @@ text
 
 
 
-    ![Step 8a.png](../../media/image125.png)
+    ![Step 8a.png](media/image125.png)
 
 1. In a new browser tab, go to `https://teams.microsoft.com`.
 
@@ -2153,13 +2152,13 @@ text
 
 
 
-	![lz7ddanl.png](../../media/lz7ddanl.png)
+	![lz7ddanl.png](media/lz7ddanl.png)
 
 1. Select Ryan's calendar and confirm that it has been blocked for the day.
 
 
 
-    ![Step 8b.png](../../media/image124.png)
+    ![Step 8b.png](media/image124.png)
 
 1. Return to the Microsoft Foundry browser tab, enter the following query and select **Enter**:
 
@@ -2169,25 +2168,25 @@ text
 text
     Create a Standard Operating Procedure SOP. If more than 20 orders are impacted, approval is required; if 20 or fewer orders are impacted, the orders can be auto assigned.
     ```
-    ![Step 8b.png](../../media/image128.png)
+    ![Step 8b.png](media/image128.png)
 >[!Note] ** As shown in step 2, approve any tool prompts the workflow displays during execution.
 
     >[!Alert] If you receive the message **No content received from previous agents** or **encounter any error while chatting with the agent**, please **refresh** the Microsoft Foundry **browser tab** and try running the same prompt again.
 
-	 ![IQW.png](../../media/IQW.png)
+	 ![IQW.png](media/IQW.png)
 
 1. Once the intermediate agents complete the execution, the **Summarizer-Agent**'s consolidated response will appear in the chat panel.
 
 
 
-    ![Step 10.png](../../media/image129.png)
+    ![Step 10.png](media/image129.png)
 >[!Note] ** Behind the scenes, the **Supervisor-Agent** routes the request to the **Work-IQ-Orchestrator-Agent**, which delegates to the **SOP-Agent** (uses **Work IQ Word** and **Work IQ OneDrive** to create a new Standard Operating Procedure document capturing the threshold-based approval rules, policy overview, workflow criteria, and implementation details, then saves it to OneDrive and generates a shareable link), before the **Summarizer-Agent** consolidates the confirmation with the document link in the final user-facing response.
 
 1. Select the **link** provided in the Summarizer-Agent response to open the generated **Standard Operating Procedure** Word document. Review the SOP contents and verify that the document has been saved to your personal **OneDrive**.
 
 
 
-    ![Step 11.png](../../media/image130.png)
+    ![Step 11.png](media/image130.png)
 
 ### What we learned
 
@@ -2203,12 +2202,6 @@ You've successfully built and executed an end-to-end multi-agent workflow that c
 
 === 
 >[!Alert] **IMPORTANT:** These labs are hosted on the Skillable platform. Completion data is collected and then exported to Success Factors every Monday. SF require another 1-3 days to process that data. The status for this lab will be visible in Viva and Learning Path next week. 
->
-Be sure to select "**Submit**" in the bottom right corner to get credit for completing this lab. 
-
-@lab.ActivityGroup(completionsurvey)
-
->[!Alert] After answering the survey questions, select **submit** to complete and end the lab. **This is required in order to receive credit for lab completion**.
 
  
 
