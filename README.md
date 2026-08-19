@@ -395,25 +395,17 @@ In this task of the workshop, you'll be creating a Lakehouse.
 
 1. Choose **From this computer** as the source.
 
-
-
     ![Notebookimport](media/Notebookimport.png)
 
 1. Select **Upload** to import the notebook.
-
-
 
     ![UploadNotebook](media/UploadNotebook.png)
 
 1. To browse the notebooks from your virtual machine, open File Explorer. Select the address bar, enter the path `C:\FabricIQLab\Notebooks`, then select the **Generate Lakehouse Data** notebook file and select the **Open** button.
 
-
-
      ![NBImportNew.png](media/NBImportNew.png) 
 
 1. After upload, the notebook will be listed in the workspace area.
-
-
 
     ![NBImportNew1.png](media/NBImportNew1.png)
 
@@ -473,8 +465,6 @@ In this task of the workshop, you'll be creating a Lakehouse.
 
 1. Wait for the execution to complete successfully.
 
-
-
     >[!Note] All cells have **completed** execution once the final cell displays a green check mark. This process may take a **couple of minutes**.
     
 	![jkda78zp.png](media/jkda78zp.png)
@@ -487,18 +477,13 @@ In this task of the workshop, you'll be creating a Lakehouse.
 
 1. Go to the **Tables** section and select the three dots (⋯), then select **Refresh** to load all tables under **dbo** schema.
 
-
-
     ![LakehouseData](media/tablerefresh.png)
 
 1. Verify that tables are created automatically.
-
-
     
     ![LakehouseData](media/LakehouseData.png)
 
 1. Click on the **orders** table and observe that the **username** column has been populated with the **usernames** that you added to the notebook before execution.
-
 
     ![Table order.png](media/Tableorder.png)
 
@@ -522,8 +507,6 @@ In this task, a **Data Agent** will be created in Fabric workspace and linked wi
 
 1. In the **Input a data agent name** field, enter `Retail_DataAgent_@lab.LabInstance.Id`, and select **Create**.
 
-
-
     ![FoundryDataAgent](media/FoundryDataAgent.png)
 
     > [!Note] If any message appears, please select **Skip for now**.
@@ -532,19 +515,13 @@ In this task, a **Data Agent** will be created in Fabric workspace and linked wi
 
 1. Once the data agent opens, navigate to the **Data** tab in the Explorer pane, select **Add Data**, and select **Data source**.
 
-
-
     ![datasource](media/datasource.png)
 
 1. Select the **Retail_Lakehouse_@lab.LabInstance.Id** Lakehouse, then select **Add** and verify that the Lakehouse is successfully attached.
 
-
-
     ![FoundryDataAgentLakehouse](media/FoundryDataAgentLakehouse.png)
 
 1. Expand **Retail_Lakehouse → schemas → dbo → Tables** and select all tables (carriers, customers, demand_signals, forecasts, inventories, order_lines, orders, product_categories, products, promotions, regions, returns, shipments, stores, warehouses).
-
-
 
     ![FoundryDataAgentLakehouse](media/LHselection.png)
 
@@ -561,8 +538,6 @@ In this task, a **Data Agent** will be created in Fabric workspace and linked wi
      ![Agent inst.png](media/Agentinst.png)
 
 1. In the **Agent instructions** section, remove any existing default content present in the instruction box, and enter instructions to provide guidance to control how the agent responds. 
-
-
 
      
     ### Sample agent instructions (copy & paste)
@@ -777,7 +752,6 @@ In this task, a **Data Agent** will be created in Fabric workspace and linked wi
 1. After entering the instructions, select **Publish**, and then select **Publish** again to save the configuration.
 
 
-
     ![agentpublish](media/agentpublish.png)
 
 1. In the pop-up window, click **Publish**.
@@ -935,7 +909,7 @@ This request initiates the workflow, where agents collaborate to gather context,
 
 1. By default, **Web Search** is added. **Click** on the three dots and remove it before proceeding.
   
-  ![Webs.png](media/Webs.png)
+	![Webs.png](media/Webs.png)
 
 1. Select **Save**, then select the back arrow (**⬅**) to create additional agents.
 
@@ -946,8 +920,6 @@ This request initiates the workflow, where agents collaborate to gather context,
     ![1byvi19r.png](media/1byvi19r.png)
 
 1. Enter `Inventory-Agent` as agent name and then select **Create and open playground**.
-
-
 
     ![0eyw9xed.png](media/0eyw9xed.png)
 
@@ -968,7 +940,7 @@ This request initiates the workflow, where agents collaborate to gather context,
     Short, factual, label : value lines. Currency includes the symbol; counts are integers. No prose padding, no tool names, no reasoning steps.
     ```
 
-   ![IA 1.png](media/IA 1.png)
+   ![IA 1.png](media/IA1.png)
 
 1. By default, **Web Search** is added. Click on the **three dots** and **remove** it before proceeding.
 
@@ -990,17 +962,14 @@ This request initiates the workflow, where agents collaborate to gather context,
 1. Select the **data agent**, then click on **Add tool**.
 
 
-
    ![image60New.png](media/image60New.png)
 
 1. Review the connected **Fabric IQ (OneLake Catalog)** tool, click on **Save** and click on **⬅**.
 
 
-
     ![image61New.png](media/image61New.png)
 
 1. Select **New agent > Build an agent**. 
-
 
 
     ![1byvi19r.png](media/1byvi19r.png)
@@ -1047,7 +1016,7 @@ This request initiates the workflow, where agents collaborate to gather context,
     - Do not fabricate data.
     ```
     
-    ![HA 1.png](media/HA 1.png)
+    ![HA 1.png](media/HA1.png)
 
 1. By default, **Web Search** is added. Click on the **three dots** and **remove** it before proceeding.
 
@@ -1536,11 +1505,9 @@ Add the following Work IQ tools to the Hierarchy-Agent:
 
     ![Step 1.png](media/image86.png)
 
-1. Under the Tools dropdown, select **Add**, then select **Browse all tools**.
+1. Under the **Tools** dropdown, select **Add**, then select **Add tools**.
 
-
-
-    ![Step 2.png](media/image58.png)
+    ![Step 2.png](media/AddTools.png)
 
 #### Add Work IQ User
 
@@ -1578,11 +1545,11 @@ Add the following Work IQ tools to the Communication Agent:
 
     ![Step 1.png](media/image90.png)
 
-1. Under the **Tools** dropdown menu, select **Add**, then select **Browse all tools**.
+1. Under the Tools dropdown, select **Add**, then select **Add tools**.
 
 
 
-    ![Step 2.png](media/image58.png)
+    ![Step 2.png](media/AddTools.png)
 
 #### Add Work IQ Mail
 
